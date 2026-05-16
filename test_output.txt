@@ -1,0 +1,14 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.13, pytest-9.0.3, pluggy-1.5.0 -- C:\Users\NunoAlmeida\miniconda3\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\NunoAlmeida\OneDrive - Transparity\Documents\Pessoal\IronHack\LAB  API and Integration Patterns Lab\arxiv-summarizer
+plugins: anyio-4.10.0
+collecting ... collected 5 items
+
+test_arxiv.py::TestArxivAPI::test_build_query_url_basic PASSED           [ 20%]
+test_arxiv.py::TestArxivAPI::test_build_query_url_with_sort PASSED       [ 40%]
+test_arxiv.py::TestArxivAPI::test_fetch_success PASSED                   [ 60%]
+test_arxiv.py::TestArxivAPI::test_fetch_failure_returns_empty_string PASSED [ 80%]
+test_arxiv.py::TestArxivParser::test_parse_returns_articles PASSED       [100%]
+
+============================== 5 passed in 0.23s ==============================
